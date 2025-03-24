@@ -1,4 +1,4 @@
-import Contador from './components/Contador'
+import Contador from './components/Contador.jsx'
 function App() {
 
   return (
