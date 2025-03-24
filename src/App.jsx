@@ -1,10 +1,17 @@
-import Contador from './components/Contador.jsx'
-function App() {
+import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import Home from './routes/Home'
+import Login from './routes/Login'
+import Nav from './components/Nav'
 
+
+function App() {
   return (
-    <>
-      <Contador/>
-    </>
+    // <BrowserRouter>
+      // <Routes>
+        // <Route path="/" element={<Home/>}/>
+    // </Routes>
+  // </BrowseRouter>
+
   )
 }
 
